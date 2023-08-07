@@ -8,7 +8,9 @@ interface ILayout {
 
 const Layout: FC<ILayout> = ({ children, isScrollView = true }) => {
 	return (
-		<View>{isScrollView ? <ScrollView>{children}</ScrollView> : children}</View>
+		<View className="h-full w-full bg-white pt-10">
+			{isScrollView ? <ScrollView>{children}</ScrollView> : children}
+		</View>
 	);
 };
 

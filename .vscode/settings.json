@@ -134,7 +134,7 @@
 	"html.completion.attributeDefaultValue": "singlequotes",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"[prisma]": {
-		"editor.defaultFormatter": "Prisma.prisma"
+		// "editor.defaultFormatter": "Prisma.prisma"
 	},
 
 	//Breadcrumbs
@@ -197,10 +197,10 @@
 	},
 	"window.zoomLevel": 1,
 	"[blade]": {
-		"editor.defaultFormatter": "onecentlin.laravel-blade"
+		// "editor.defaultFormatter": "onecentlin.laravel-blade"
 	},
 	"[php]": {
-		"editor.defaultFormatter": "kokororin.vscode-phpfmt"
+		// "editor.defaultFormatter": "kokororin.vscode-phpfmt"
 	},
 	"workbench.activityBar.visible": false,
 	"github.copilot.enable": {

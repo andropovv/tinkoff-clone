@@ -1,7 +1,13 @@
 import React from "react";
+import Heading from "../../UI/Heading";
+import Layout from "../../layout/Layout";
 
-function Paymets() {
-	return <div>Paymets</div>;
-}
+const Paymets = () => {
+	return (
+		<Layout>
+			<Heading text="Payments" />
+		</Layout>
+	);
+};
 
 export default Paymets;

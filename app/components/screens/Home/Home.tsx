@@ -1,12 +1,18 @@
 import React from "react";
-import { View } from "react-native";
+import Layout from "../../layout/Layout";
+import Accounts from "./Accounts/Accounts";
+import ApplyNewProducts from "./Accounts/ApplyNewProducts/ApplyNewProducts";
 import Header from "./Header";
+import Stories from "./Stories/Stories";
 
 const Home = () => {
 	return (
-		<View>
+		<Layout>
 			<Header />
-		</View>
+			<Stories />
+			<Accounts />
+			<ApplyNewProducts />
+		</Layout>
 	);
 };
 
