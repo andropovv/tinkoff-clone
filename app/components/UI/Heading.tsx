@@ -9,7 +9,7 @@ const Heading: FC<{ text: string; isCenter?: boolean }> = ({
 	return (
 		<Padding>
 			<Text
-				className={`text-2xl font-bold to-gray-800 ${
+				className={`text-2xl font-bold text-gray-800 ${
 					isCenter && "text-center"
 				}`}
 			>
